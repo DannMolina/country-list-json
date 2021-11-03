@@ -9,7 +9,7 @@ List of countries that includes country dial code, country abbreviation and flag
 _Get country name_
 - countries.name
 
-_Get dial code
+_Get dial code_
 - countries.dial_code
 
 _Get country code_
