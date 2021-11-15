@@ -20,7 +20,7 @@ List of countries in json format that includes country dial code, country abbrev
 ## Data Example
 ```
 [
- { 
+  { 
       name: "Japan",
       dial_code: "+81", 
       code: "JP", 
@@ -31,8 +31,7 @@ List of countries in json format that includes country dial code, country abbrev
       dial_code: "+7", 
       code: "RU", 
       flag: "🇷🇺" 
-  },
-      
+  },    
 ]
 ```
 
