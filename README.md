@@ -18,24 +18,23 @@ List of countries in json format that includes country dial code, country abbrev
 - countries.flag
 
 ## Data Example
-```json
+;;;
 [
-      { 
-            name: "Japan",
-            dial_code: "+81", 
-            code: "JP", 
-            flag: "🇯🇵" 
-      },
-      { 
-            name: "Russia",
-            dial_code: "+7", 
-            code: "RU", 
-            flag: "🇷🇺" 
-      },
+ { 
+      name: "Japan",
+      dial_code: "+81", 
+      code: "JP", 
+      flag: "🇯🇵" 
+  },
+  { 
+      name: "Russia",
+      dial_code: "+7", 
+      code: "RU", 
+      flag: "🇷🇺" 
+  },
       
 ]
-
-```
+;;;
 
 ## Implementation Example
 ```javascript
