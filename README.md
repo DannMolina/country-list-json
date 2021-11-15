@@ -18,7 +18,7 @@ List of countries in json format that includes country dial code, country abbrev
 - countries.flag
 
 ## Data Example
-```
+```json
 { 
       name: "Russia",
       dial_code: "+7", 
@@ -28,7 +28,7 @@ List of countries in json format that includes country dial code, country abbrev
 ```
 
 ## Implementation Example
-```
+```javascript
 import React from 'react';
 import {
   FlatList,
