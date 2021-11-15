@@ -1,23 +1,23 @@
 List of countries in json format that includes country dial code, country abbreviation and flag.
 
-*Get Started*
+## Get Started
 - npm install country-list-json
 - import countries 
 
-*Usage*
-_Get country name_
+## Usage
+**Get country name**
 - countries.name
 
-_Get dial code_
+**Get dial code**
 - countries.dial_code
 
-_Get country code_
+**Get country code**
 - countries.code
 
-_Get country flag_
+**Get country flag**
 - countries.flag
 
-# Sample Data
+## Data Example
 ```
 { 
       name: "Russia",
@@ -25,4 +25,56 @@ _Get country flag_
       code: "RU", 
       flag: "🇷🇺" 
 } 
+```
+
+## Implementation Example
+```
+import React from 'react';
+import {
+  FlatList,
+  SafeAreaView,
+  Text,
+  View,
+  StyleSheet,
+  StatusBar,
+} from 'react-native';
+
+import {countries} from 'country-list-json';
+
+const App = () => {
+  const Item = ({title}) => (
+    <View style={styles.item}>
+      <Text style={styles.title}>{title}</Text>
+    </View>
+  );
+
+  const renderItem = ({item}) => <Item title={item.name} />;
+  return (
+    <SafeAreaView style={styles.container}>
+      <FlatList
+        data={countries}
+        keyExtractor={item => item.code}
+        renderItem={renderItem}
+      />
+    </SafeAreaView>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    marginTop: StatusBar.currentHeight || 0,
+  },
+  item: {
+    backgroundColor: 'lavender',
+    padding: 20,
+    marginVertical: 8,
+    marginHorizontal: 16,
+  },
+  title: {
+    fontSize: 32,
+  },
+});
+
+export default App;
 
