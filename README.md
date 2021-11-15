@@ -18,7 +18,7 @@ List of countries in json format that includes country dial code, country abbrev
 - countries.flag
 
 ## Data Example
-;;;
+```
 [
  { 
       name: "Japan",
@@ -34,7 +34,7 @@ List of countries in json format that includes country dial code, country abbrev
   },
       
 ]
-;;;
+```
 
 ## Implementation Example
 ```javascript
