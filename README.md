@@ -18,4 +18,9 @@ _Get country flag_
 - countries.flag
 
 # Sample Data
-```{ name: "Russia", dial_code: "+7", code: "RU", flag: "🇷🇺" }```
+```{ 
+      name: "Russia",
+      dial_code: "+7", 
+      code: "RU", 
+      flag: "🇷🇺" 
+   }```
