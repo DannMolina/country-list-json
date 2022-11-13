@@ -7,7 +7,7 @@ export const countries = [
     name: "American Samoa",
     dial_code: "+1684",
     code: "AS",
-    flag: "🇺🇸",
+    flag: "🇦🇸",
   },
   { name: "Andorra", dial_code: "+376", code: "AD", flag: "🇦🇩" },
   { name: "Angola", dial_code: "+244", code: "AO", flag: "🇦🇴" },
