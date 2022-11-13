@@ -1,0 +1,31 @@
+{
+	"name": "country-list-json",
+	"version": "1.0.8",
+	"description": "List of countries in json format that includes country dial code, country abbreviation and flag.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DannMolina/country-list-json.git"
+	},
+	"keywords": [
+		"country listing",
+		"country in josn format",
+		"countries",
+		"geocode",
+		"country",
+		"code",
+		"dial code",
+		"country flag",
+		"flag",
+		"listing"
+	],
+	"author": "Dann Russell Molina",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/DannMolina/country-list-json/issues"
+	},
+	"homepage": "https://github.com/DannMolina/country-list-json#readme"
+}
