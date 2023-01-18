@@ -3,6 +3,7 @@
 	"version": "1.0.8",
 	"description": "List of countries in json format that includes country dial code, country abbreviation and flag.",
 	"main": "index.js",
+	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
