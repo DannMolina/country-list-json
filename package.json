@@ -1,6 +1,6 @@
 {
 	"name": "country-list-json",
-	"version": "1.0.8",
+	"version": "1.0.10",
 	"description": "List of countries in json format that includes country dial code, country abbreviation and flag.",
 	"main": "index.js",
 	"type": "module",
