@@ -94,3 +94,8 @@ const styles = StyleSheet.create({
 
 export default App;
 ```
+
+## Importing TypeScript types
+```ts
+import { CountryListItemType } from 'country-list-json';
+```
