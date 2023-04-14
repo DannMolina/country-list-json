@@ -24,7 +24,9 @@
 		"flag",
 		"listing"
 	],
-	"author": "Dann Russell Molina",
+	"authors": [
+		"Dann Russell Molina"
+	],
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/DannMolina/country-list-json/issues"
